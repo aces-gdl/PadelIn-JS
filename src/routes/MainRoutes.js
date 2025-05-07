@@ -18,7 +18,7 @@ const Membership = Loadable(lazy(() => import('views/membership')));
 const AccountInfoPage = Loadable(lazy(() => import('views/account/AccountInfoPage')));
 const Results = Loadable(lazy(() => import('views/results')));
 
-
+const StripeCompletion = Loadable(lazy(() => import('views/tournament/Completion')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -51,6 +51,10 @@ const MainRoutes = {
         {
             path: '/views/account-info',
             element: <AccountInfoPage />
+        },
+        {
+            path: '/views/stripecompletion',
+            element: <StripeCompletion />
         },
 
     ]

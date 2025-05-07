@@ -42,7 +42,7 @@ const Header = ({ handleLeftDrawerToggle }) => {
                             ...theme.typography.commonAvatar,
                             ...theme.typography.mediumAvatar,
                             transition: 'all .2s ease-in-out',
-                            background: '#0B5AFD',
+                            background: '#373DCF',
                             color: 'whitesmoke',
                             '&:hover': {
                                 background: theme.palette.secondary.dark,

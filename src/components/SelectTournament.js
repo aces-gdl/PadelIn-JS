@@ -21,7 +21,7 @@ const SelectTournaments = (props) => {
 
     return (
         <FormControl size='small' fullWidth sx={{ marginRight: 2 }}>
-            <InputLabel id="TournamentL">Torneos</InputLabel>
+            <InputLabel id="TournamentL">Torneo</InputLabel>
             <Select
                 labelId="TournamentL"
                 id={props.name}

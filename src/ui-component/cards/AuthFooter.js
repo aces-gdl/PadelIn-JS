@@ -9,7 +9,7 @@ const AuthFooter = () => (
         acesgdl.com
         </Typography>
         <Typography variant="subtitle2" component={Link} href="http://acesgdl.com" target="_blank" underline="hover">
-            &copy; acesgdl.com.mx
+            &copy; acesgdl.com
         </Typography>
     </Stack>
 );

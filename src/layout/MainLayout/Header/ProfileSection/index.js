@@ -97,8 +97,8 @@ const ProfileSection = () => {
                     alignItems: 'center',
                     borderRadius: '27px',
                     transition: 'all .2s ease-in-out',
-                    borderColor: '#0B5AFD',
-                    backgroundColor: '#0B5AFD',
+                    borderColor: '#373DCF',
+                    backgroundColor: '#373DCF',
                     '&[aria-controls="menu-list-grow"], &:hover': {
                         borderColor: theme.palette.primary.main,
                         background: `${theme.palette.primary.main}!important`,
